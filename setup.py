@@ -5,7 +5,7 @@ setup(
     version="0.1.0",
     author="cvetyshayasiren",
     description="CLI tool for exploring chemical elements",
-    py_modules=["elemdex"],
+    py_modules=["elemdex", "find", "utils"],
     entry_points={
         "console_scripts": [
             "elemdex=elemdex:main",
