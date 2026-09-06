@@ -1,0 +1,10 @@
+README.md
+elemdex.py
+find.py
+setup.py
+utils.py
+elemdex.egg-info/PKG-INFO
+elemdex.egg-info/SOURCES.txt
+elemdex.egg-info/dependency_links.txt
+elemdex.egg-info/entry_points.txt
+elemdex.egg-info/top_level.txt

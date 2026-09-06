@@ -1,0 +1,2 @@
+[console_scripts]
+elemdex = elemdex:main
