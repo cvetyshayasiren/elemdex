@@ -49,31 +49,33 @@ pip uninstall elemdex
 ### Basic Syntax
 
 ```bash
-python elemdex.py [OPTIONS] [ELEMENT]
+elemdex [OPTIONS] [ELEMENT]
 ```
 
 ### Examples
 
 #### Look up an element by name
 ```bash
-python elemdex.py Hydrogen
+elemdex Hydrogen
 ```
 
 #### Look up an element by atomic number
 ```bash
-python elemdex.py 79
+elemdex 79
 ```
 
 #### Get a random element
 ```bash
-python elemdex.py --random
+elemdex
+#or
+elemdex --random
 # or
-python elemdex.py -r
+elemdex -r
 ```
 
 #### Display help
 ```bash
-python elemdex.py --help
+elemdex --help
 ```
 
 ---
