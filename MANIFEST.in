@@ -1,1 +1,4 @@
 include data.json
+include elemdex.py
+include find.py
+include utils.py
