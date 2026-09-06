@@ -24,13 +24,22 @@
 
 ## 🚀 Installation
 
+1. Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/cvetyshayasiren/elemdex.git
+```
+2. Navigate to the folder
+```bash
 cd elemdex
-
-# Install the package
+```
+3. Install the package
+```bash
 pip install .
+```
+
+Uninstall
+```bash
+pip uninstall elemdex
 ```
 
 ---
