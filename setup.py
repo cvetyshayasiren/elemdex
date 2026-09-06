@@ -5,11 +5,7 @@ setup(
     version="0.1.0",
     author="cvetyshayasiren",
     description="CLI tool for exploring chemical elements",
-    py_modules=["elemdex", "find", "utils"],
-    package_data={
-        "": ["data.json"],
-    },
-    include_package_data=True,
+    py_modules=["elemdex", "find", "utils", "data"],
     entry_points={
         "console_scripts": [
             "elemdex=elemdex:main",
