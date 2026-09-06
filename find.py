@@ -1,11 +1,13 @@
-
+import os
 import json
 import random
 
 from utils import pretty_element
 
 def load_data():
-    with open("data.json", "r", encoding="utf-8") as f:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    DATA_FILE = os.path.join(BASE_DIR, 'data.json')
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
     return data
 
